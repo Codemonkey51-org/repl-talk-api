@@ -6,12 +6,12 @@ with open('README.md', 'r') as fh:
 setuptools.setup(
 	name='repltalk',
 	version='0.8.14',
-	author='mat',
-	author_email='pypi@matdoes.dev',
-	description='Allows you to do various things with the kind of unofficial Repl.it Repl Talk API',
+	author='codemonkey51',
+	author_email='contact@codemonkey51.dev',
+	description='A fork of mat\'s repltalk module',
 	long_description=long_description,
 	long_description_content_type='text/markdown',
-	url='https://github.com/mat-1/repl-talk-api',
+	url='https://github.com/codemonkey51-org/repl-talk-api',
 	packages=setuptools.find_packages(),
 	install_requires='aiohttp',
 	classifiers=[
