@@ -402,7 +402,10 @@ class Comment():
 			return repr(self.content[:100] + '...')
 		else:
 			return repr(self.content)
-
+	
+	def get_full_comment(self):
+		return self
+	
 	def __eq__(self, post2):
 		return self.id == post2.id
 
