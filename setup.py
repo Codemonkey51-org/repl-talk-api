@@ -4,7 +4,7 @@ with open('README.md', 'r') as fh:
 	long_description = fh.read()
 
 setuptools.setup(
-	name='repltalk',
+	name='replreports',
 	version='0.8.14',
 	author='codemonkey51',
 	author_email='contact@codemonkey51.dev',
